@@ -1,0 +1,18 @@
+let g:user_zen_settings = {
+\'indentation':' ',
+\'perl':{
+\  'aliases':{
+\    'req':'require '
+\    },
+\  'snippets':{
+\    'use':"use strict\nuse warnings\n\n",
+\    'warn':"warn \"|\";",
+\    }
+\  }
+\}
+let g:user_zen_expandabbr_key = '<c-e>'
+let g:use_zen_complete_tag = 1
+let g:molokai_original = 1
+
+imap <D-Space> <Esc>
+
